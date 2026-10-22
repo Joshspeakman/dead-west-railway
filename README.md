@@ -8,7 +8,7 @@ The Dead West Railway Co. buried the men who built its line beneath the track. T
 
 Take a steam train east across the quarantined Cinder Territory with up to five friends. Keep the boiler fed, scavenge what you can, and keep each other breathing. It's eighty kilometres to the other side.
 
-A co-op survival game for one to six players, played online together on Windows, macOS and Linux.
+A co-op survival game for one to six players on Windows, macOS and Linux. Ride online, with friends on your own network, or alone with no internet at all.
 
 ## Download
 
@@ -19,7 +19,7 @@ A co-op survival game for one to six players, played online together on Windows,
 | **Linux** 64-bit: Ubuntu, Debian, Mint, Pop!\_OS | [dead-west-railway_amd64.deb](https://github.com/Joshspeakman/dead-west-railway/releases/latest/download/dead-west-railway_amd64.deb) |
 | **Linux** 64-bit: any other distribution         | [Dead-West-Railway.AppImage](https://github.com/Joshspeakman/dead-west-railway/releases/latest/download/Dead-West-Railway.AppImage)   |
 
-Every version is on the [releases page](https://github.com/Joshspeakman/dead-west-railway/releases). You need an internet connection to play, as everyone rides on the same server.
+Every version is on the [releases page](https://github.com/Joshspeakman/dead-west-railway/releases).
 
 No download? The same game runs in a desktop browser at **[dead-west-railway.fly.dev](https://dead-west-railway.fly.dev)**.
 
@@ -66,17 +66,39 @@ chmod +x Dead-West-Railway.AppImage
 
 If it won't start, install FUSE 2 (`libfuse2` on most distributions; `libfuse2t64` on Ubuntu 24.04 and later). If it complains about the "SUID sandbox", use the `.deb` instead, or start it with `./Dead-West-Railway.AppImage --no-sandbox`.
 
+## Four ways to ride
+
+![The launcher: Ride online, Host on your network, Join on your network, Ride alone](screenshots/launcher.png)
+
+The game opens on a launcher:
+
+- **Ride online** puts you on the Dead West Railway server, where friends anywhere can board with you.
+- **Host on your network** opens a station on your computer. Friends on the same Wi-Fi or home network board at your station, with no internet needed.
+- **Join on your network** lists the stations friends have opened on your network. Click one to board. If yours isn't listed, type the address your friend's lobby shows (for example `192.168.1.20`).
+- **Ride alone** plays on your computer only. No internet, no one else.
+
+**← LAUNCHER** in the strip at the bottom of the game takes you back. When you're hosting, that closes your station, so make sure your friends are done first.
+
+### Hosting on your network
+
+- The first time you host, your computer may ask whether Dead West Railway can use the network. On Windows, allow it on **private networks**; on macOS, click **Allow**. Otherwise friends can't reach you.
+- Your lobby shows the address friends can type if your station isn't listed for them.
+- Stations use **TCP port 7891** for the game, and **UDP port 7892** to tell other launchers they're open. If a firewall blocks 7892, friends can still type your address. If it blocks 7891, nobody can board.
+- Whoever hosts runs the game for everyone, so friends play the host's version and don't need the same release.
+
 ## Ride together
 
 ![Three riders in the lobby, each marked ready, beside the room code](screenshots/posse.png)
+
+However you're riding, boarding works the same way:
 
 1. One of you types a name and clicks **Take out a train**. You get a five-character **ticket**, for example `R8Y3C`.
 2. Send the ticket to your friends. They type their names, enter it under **Holding someone's ticket?** and click **Board**.
 3. Everyone picks who they were, then clicks **Ready**. Whoever took out the train departs when the posse is ready.
 
-Up to six can ride together, and you can ride alone. Once the train leaves the station nobody new can board, so gather everyone first. If your connection drops, open the game again and board with the same ticket to get back in.
+Up to six can ride together. Once the train leaves the station nobody new can board, so gather everyone first. If your connection drops, open the game again and board with the same ticket to get back in.
 
-The first time anyone plays after a quiet spell, the game takes a few seconds to wake the server: you'll see **WAKING THE LINE**.
+Online, the first ride after a quiet spell takes a few seconds while the server wakes: you'll see **WAKING THE LINE**.
 
 ![The posse beside their locomotive at the station, early in the morning](screenshots/departure.png)
 
@@ -108,21 +130,9 @@ The handbook (**H**) covers the rest. Everything else, you'll find out on the li
 
 ## Good to know
 
-- **Your progress** (what you've earned and unlocked) is kept on the server and tied to this computer's copy of the game. Playing in a browser counts as a different rider.
-- **Updates** reach you on their own: the game loads fresh from the server each time you open it. You'll only need to download the app again if a new release says so.
-- **"NO ANSWER ON THE WIRE"** means the app couldn't reach the server. Check your connection and click **Try again**.
-
-## Building the app yourself
-
-This repository holds the desktop app: a game window onto the server, built with [Electron](https://www.electronjs.org/). You need Node.js 22 or newer.
-
-```sh
-npm ci
-npm start          # run it
-npm run dist       # build the installer for this system into dist/
-```
-
-`DWR_SERVER=http://localhost:3000 npm start` points the app at another server. Pushing a `v*` tag builds the Windows, macOS and Linux installers on GitHub Actions and publishes them as a release.
+- **Your progress** (what you've earned and unlocked) is kept separately online and on your computer. Riding alone and hosting share your computer's progress. Riding online has its own, kept on the server. Playing in a browser counts as a different rider again.
+- **Updates:** riding online always uses the newest game. Riding alone and hosting use the game that came with your copy of the app, so download the newest release to get updates there.
+- **"Can't be reached" or "no answer"** means the launcher couldn't find that server or station. Check your connection, or the address, and try again.
 
 ---
 
