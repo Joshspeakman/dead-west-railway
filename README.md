@@ -1,14 +1,10 @@
 # Dead West Railway
 
-_They laid the line. Now they walk it._
+A co-op survival game for one to six players on Windows, macOS and Linux. Drive a steam train across the frontier with your friends: keep the boiler fed, scavenge supplies, and look out for each other on the way. Play online, with friends on your own network, or alone with no internet.
 
 ![The title screen: a steam train at dusk beneath the words Dead West Railway](screenshots/title.png)
 
-The Dead West Railway Co. buried the men who built its line beneath the track. The dead got up.
-
-Take a steam train east across the quarantined Cinder Territory with up to five friends. Keep the boiler fed, scavenge what you can, and keep each other breathing. It's eighty kilometres to the other side.
-
-A co-op survival game for one to six players on Windows, macOS and Linux. Ride online, with friends on your own network, or alone with no internet at all.
+![Riders beside their locomotive at the station, early in the morning](screenshots/departure.png)
 
 ## Download
 
@@ -66,42 +62,6 @@ chmod +x Dead-West-Railway.AppImage
 
 If it won't start, install FUSE 2 (`libfuse2` on most distributions; `libfuse2t64` on Ubuntu 24.04 and later). If it complains about the "SUID sandbox", use the `.deb` instead, or start it with `./Dead-West-Railway.AppImage --no-sandbox`.
 
-## Four ways to ride
-
-![The launcher: Ride online, Host on your network, Join on your network, Ride alone](screenshots/launcher.png)
-
-The game opens on a launcher. Choose how to ride, then press the big button at the bottom:
-
-- **Ride online** puts you on the Dead West Railway server, where friends anywhere can board with you.
-- **Host on your network** opens a station on your computer. Friends on the same Wi-Fi or home network board at your station, with no internet needed.
-- **Join on your network** lists the stations friends have opened on your network. Click one to board. If yours isn't listed, type the address your friend's lobby shows (for example `192.168.1.20`).
-- **Ride alone** plays on your computer only. No internet, no one else.
-
-**← LAUNCHER** in the strip at the bottom of the game takes you back. When you're hosting, that closes your station, so make sure your friends are done first.
-
-### Hosting on your network
-
-- The first time you host, your computer may ask whether Dead West Railway can use the network. On Windows, allow it on **private networks**; on macOS, click **Allow**. Otherwise friends can't reach you.
-- Your lobby shows the address friends can type if your station isn't listed for them.
-- Stations use **TCP port 7891** for the game, and **UDP port 7892** to tell other launchers they're open. If a firewall blocks 7892, friends can still type your address. If it blocks 7891, nobody can board.
-- Whoever hosts runs the game for everyone, so friends play the host's version and don't need the same release.
-
-## Ride together
-
-![Three riders in the lobby, each marked ready, beside the room code](screenshots/posse.png)
-
-However you're riding, boarding works the same way:
-
-1. One of you types a name and clicks **Take out a train**. You get a five-character **ticket**, for example `R8Y3C`.
-2. Send the ticket to your friends. They type their names, enter it under **Holding someone's ticket?** and click **Board**.
-3. Everyone picks who they were, then clicks **Ready**. Whoever took out the train departs when the posse is ready.
-
-Up to six can ride together. Once the train leaves the station nobody new can board, so gather everyone first. If your connection drops, open the game again and board with the same ticket to get back in.
-
-Online, the first ride after a quiet spell takes a few seconds while the server wakes: you'll see **WAKING THE LINE**.
-
-![The posse beside their locomotive at the station, early in the morning](screenshots/departure.png)
-
 ## Controls
 
 Play with a keyboard and mouse, or a controller (Xbox, PlayStation or any standard gamepad). With a controller, the game shows its buttons on screen as you play.
@@ -112,29 +72,22 @@ Play with a keyboard and mouse, or a controller (Xbox, PlayStation or any standa
 | Mouse, left click  | Aim and shoot. With a melee weapon, hold to wind up                                    |
 | Right mouse (hold) | Aim down the sights                                                                    |
 | Shift              | Sprint                                                                                 |
-| Space              | Hop. On a horse or in a seat, get down                                                 |
+| Space              | Hop, or get down from a seat                                                           |
 | Space twice        | Diving roll                                                                            |
 | E                  | Use, pick up, buy, take the controls. Hold for longer jobs                             |
 | R                  | Reload                                                                                 |
 | Q                  | Drop                                                                                   |
 | 1–0, mouse wheel   | Choose from your belt                                                                  |
 | Tab                | Your things                                                                            |
-| M                  | The map of the line                                                                    |
-| G                  | Your posse                                                                             |
+| M                  | Map                                                                                    |
+| G                  | Your team                                                                              |
 | C (hold)           | Emotes                                                                                 |
 | Enter              | Chat                                                                                   |
 | H                  | The handbook                                                                           |
 | Esc                | Options: volume, fullscreen, graphics, UI size, vibration. In the app, Exit to Desktop |
 | F11                | Fullscreen                                                                             |
 
-The handbook (**H**) covers the rest. Everything else, you'll find out on the line.
-
-## Good to know
-
-- **Your progress** (what you've earned and unlocked) is kept separately online and on your computer. Riding alone and hosting share your computer's progress. Riding online has its own, kept on the server. Playing in a browser counts as a different rider again.
-- **Graphics:** the game starts in Classic, the pixel art as drawn. Enhanced (Low, Medium or High, in Options or the launcher) adds soft light, bloom and more, for computers with a capable graphics card. If yours can't run it, the game stays in Classic.
-- **Updates:** riding online always uses the newest game. Riding alone and hosting use the game that came with your copy of the app, so download the newest release to get updates there.
-- **"Can't be reached" or "no answer"** means the launcher couldn't find that server or station. Check your connection, or the address, and try again.
+Press **H** in the game for the full handbook.
 
 ---
 
