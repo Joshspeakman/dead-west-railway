@@ -15,7 +15,7 @@ A co-op survival game for one to six players on Windows, macOS and Linux. Ride o
 | System                                           | Download                                                                                                                              |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
 | **Windows** 10 or 11, 64-bit                     | [Dead-West-Railway-Setup.exe](https://github.com/Joshspeakman/dead-west-railway/releases/latest/download/Dead-West-Railway-Setup.exe) |
-| **macOS** 12 or newer, Apple Silicon and Intel   | [Dead-West-Railway.dmg](https://github.com/Joshspeakman/dead-west-railway/releases/latest/download/Dead-West-Railway.dmg)             |
+| **macOS** 13 or newer, Apple Silicon and Intel   | [Dead-West-Railway.dmg](https://github.com/Joshspeakman/dead-west-railway/releases/latest/download/Dead-West-Railway.dmg)             |
 | **Linux** 64-bit: Ubuntu, Debian, Mint, Pop!\_OS | [dead-west-railway_amd64.deb](https://github.com/Joshspeakman/dead-west-railway/releases/latest/download/dead-west-railway_amd64.deb) |
 | **Linux** 64-bit: any other distribution         | [Dead-West-Railway.AppImage](https://github.com/Joshspeakman/dead-west-railway/releases/latest/download/Dead-West-Railway.AppImage)   |
 
@@ -70,7 +70,7 @@ If it won't start, install FUSE 2 (`libfuse2` on most distributions; `libfuse2t6
 
 ![The launcher: Ride online, Host on your network, Join on your network, Ride alone](screenshots/launcher.png)
 
-The game opens on a launcher:
+The game opens on a launcher. Choose how to ride, then press the big button at the bottom:
 
 - **Ride online** puts you on the Dead West Railway server, where friends anywhere can board with you.
 - **Host on your network** opens a station on your computer. Friends on the same Wi-Fi or home network board at your station, with no internet needed.
