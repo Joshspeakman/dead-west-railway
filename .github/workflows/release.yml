@@ -1,4 +1,5 @@
 # Builds the installers on each system and publishes them as a release when a v* tag is pushed.
+# The game's source is private: it is checked out (read-only) at the same tag as this release.
 # Run it by hand (Actions → Release → Run workflow) to build without publishing.
 name: Release
 
@@ -6,6 +7,11 @@ on:
   push:
     tags: ['v*']
   workflow_dispatch:
+    inputs:
+      ref:
+        description: The game repository's tag or branch to build
+        required: true
+        default: main
 
 permissions:
   contents: write
@@ -25,29 +31,47 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          repository: Joshspeakman/dead-west-railway-game
+          ref: ${{ inputs.ref || github.ref_name }}
+          ssh-key: ${{ secrets.GAME_DEPLOY_KEY }}
+          path: game
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
-      - run: npm ci
-      - run: npx electron-builder ${{ matrix.target }} --publish never
+          cache-dependency-path: |
+            game/package-lock.json
+            game/desktop/package-lock.json
+      - name: Build the game (the client, and the server the app carries)
+        working-directory: game
+        run: |
+          npm ci
+          npm run build:desktop
+      - name: Build the installer
+        working-directory: game/desktop
+        run: |
+          npm ci
+          npx electron-builder ${{ matrix.target }} --publish never
         env:
           # No publisher certificates yet: don't go looking for one.
           CSC_IDENTITY_AUTO_DISCOVERY: false
-      - name: Check the macOS app is signed (ad hoc) and universal
+      - name: Check the macOS app is signed (ad hoc), universal, and carries the game
         if: runner.os == 'macOS'
         run: |
-          app="$(find dist -maxdepth 2 -name '*.app' | head -1)"
+          app="$(find game/desktop/dist -maxdepth 2 -name '*.app' | head -1)"
           codesign --verify --deep --strict "$app"
           lipo -archs "$app/Contents/MacOS/Dead West Railway"
+          test -f "$app/Contents/Resources/game/server.mjs"
+          test -f "$app/Contents/Resources/game/client/index.html"
       - uses: actions/upload-artifact@v4
         with:
           name: installers-${{ runner.os }}
           path: |
-            dist/*.exe
-            dist/*.dmg
-            dist/*.AppImage
-            dist/*.deb
+            game/desktop/dist/*.exe
+            game/desktop/dist/*.dmg
+            game/desktop/dist/*.AppImage
+            game/desktop/dist/*.deb
           if-no-files-found: error
 
   release:
