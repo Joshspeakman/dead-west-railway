@@ -66,26 +66,26 @@ If it won't start, install FUSE 2 (`libfuse2` on most distributions; `libfuse2t6
 
 Play with a keyboard and mouse, or a controller (Xbox, PlayStation or any standard gamepad). With a controller, the game shows its buttons on screen as you play.
 
-| Key                | What it does                                                                           |
-| ------------------ | -------------------------------------------------------------------------------------- |
-| W A S D            | Walk                                                                                   |
-| Mouse, left click  | Aim and shoot. With a melee weapon, hold to wind up                                    |
-| Right mouse (hold) | Aim down the sights                                                                    |
-| Shift              | Sprint                                                                                 |
-| Space              | Hop, or get down from a seat                                                           |
-| Space twice        | Diving roll                                                                            |
-| E                  | Use, pick up, buy, take the controls. Hold for longer jobs                             |
-| R                  | Reload                                                                                 |
-| Q                  | Drop                                                                                   |
-| 1–0, mouse wheel   | Choose from your belt                                                                  |
-| Tab                | Your things                                                                            |
-| M                  | Map                                                                                    |
-| G                  | Your team                                                                              |
-| C (hold)           | Emotes                                                                                 |
-| Enter              | Chat                                                                                   |
-| H                  | The handbook                                                                           |
-| Esc                | Options: volume, fullscreen, graphics, UI size, vibration. In the app, Exit to Desktop |
-| F11                | Fullscreen                                                                             |
+| Key                | What it does                                                                                       |
+| ------------------ | -------------------------------------------------------------------------------------------------- |
+| W A S D            | Walk                                                                                               |
+| Mouse, left click  | Aim and shoot. With a melee weapon, hold to wind up                                                |
+| Right mouse (hold) | Aim down the sights                                                                                |
+| Shift              | Sprint                                                                                             |
+| Space              | Hop, or get down from a seat                                                                       |
+| Space twice        | Diving roll                                                                                        |
+| E                  | Use, pick up, buy, take the controls. Hold for longer jobs                                         |
+| R                  | Reload                                                                                             |
+| Q                  | Drop                                                                                               |
+| 1–0, mouse wheel   | Choose from your belt                                                                              |
+| Tab                | Your things                                                                                        |
+| M                  | Map                                                                                                |
+| G                  | Your team                                                                                          |
+| C (hold)           | Emotes                                                                                             |
+| Enter              | Chat                                                                                               |
+| H                  | The handbook                                                                                       |
+| Esc                | Options: volume, fullscreen, graphics, frame rate, UI size, vibration. In the app, Exit to Desktop |
+| F11                | Fullscreen                                                                                         |
 
 Press **H** in the game for the full handbook.
 
