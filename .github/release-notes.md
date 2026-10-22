@@ -1,10 +1,12 @@
 ## New in this version
 
-- **Smoother riding:** the ground ahead is prepared before it scrolls into view, so the hitches while the train rolls are gone.
-- **Recommended graphics:** the game recognises your graphics card. On an Apple Silicon Mac or a dedicated NVIDIA, AMD or Intel Arc card it recommends Enhanced: High (marked ★) and switches to it once.
-- **Easier with a controller:** what you've selected now has a bright, pulsing frame, and a switch's whole row lights up.
-- **Bigger menus on big screens:** menus grow with the window, so they're easy to read at 1440p and up.
-- **Update in place:** from 1.3.1 on, the launcher's Update button installs this version for you.
+- **A song of its own:** the title screen opens with _Dust and Death's Call_, made for the game.
+- **A livelier title screen:** day turns to night out on the line, and the posse has company. Keep an eye on it while you wait.
+- **The searchlight:** buy one from the gunsmith, weld it to the train, man it and aim it to light up the dark. On Enhanced graphics everything in its beam casts a shadow.
+- **No first-moment stutters:** a short loading screen warms the game up before the title, so the menu and the start of a ride run smoothly from the first frame.
+- **Selling pays again:** E now picks up the money bag a sale leaves on the counter, instead of opening the shop again.
+- **Switch controls on the fly:** keyboard and mouse take over from a controller the moment you touch them, in menus too.
+- **Update in place:** the launcher's Update button installs this version for you.
 
 ## Download
 
