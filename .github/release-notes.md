@@ -1,9 +1,10 @@
 ## New in this version
 
-- **Smoother everywhere, most of all on Windows and Linux:** the game draws its frames about twice as fast, and its picture now runs on your graphics card. On a fast PC, Classic keeps up with high-refresh screens (200 frames a second and more).
-- **Frame rate** in Options and the launcher's Graphics panel: Match display, 60, 120, or (on Windows and Linux) Uncapped.
-- **Laptops with two graphics chips** now use the faster one.
-- **Updates install themselves:** the launcher's Update button now downloads the new version, checks it and installs it over this one, then restarts. (Copies older than this one still need this version downloaded by hand, once.)
+- **Smoother riding:** the ground ahead is prepared before it scrolls into view, so the hitches while the train rolls are gone.
+- **Recommended graphics:** the game recognises your graphics card. On an Apple Silicon Mac or a dedicated NVIDIA, AMD or Intel Arc card it recommends Enhanced: High (marked ★) and switches to it once.
+- **Easier with a controller:** what you've selected now has a bright, pulsing frame, and a switch's whole row lights up.
+- **Bigger menus on big screens:** menus grow with the window, so they're easy to read at 1440p and up.
+- **Update in place:** from 1.3.1 on, the launcher's Update button installs this version for you.
 
 ## Download
 
