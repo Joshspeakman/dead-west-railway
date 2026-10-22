@@ -104,33 +104,35 @@ Online, the first ride after a quiet spell takes a few seconds while the server 
 
 ## Controls
 
-Play with a keyboard and mouse.
+Play with a keyboard and mouse, or a controller (Xbox, PlayStation or any standard gamepad). With a controller, the game shows its buttons on screen as you play.
 
-| Key                | What it does                                               |
-| ------------------ | ---------------------------------------------------------- |
-| W A S D            | Walk                                                       |
-| Mouse, left click  | Aim and shoot. With a melee weapon, hold to wind up        |
-| Right mouse (hold) | Aim down the sights                                        |
-| Shift              | Sprint                                                     |
-| Space              | Roll while moving, hop while standing                      |
-| E                  | Use, pick up, buy, take the controls. Hold for longer jobs |
-| R                  | Reload                                                     |
-| Q                  | Drop                                                       |
-| 1–0, mouse wheel   | Choose from your belt                                      |
-| Tab                | Your things                                                |
-| M                  | The map of the line                                        |
-| G                  | Your posse                                                 |
-| C (hold)           | Emotes                                                     |
-| Enter              | Chat                                                       |
-| H                  | The handbook                                               |
-| Esc                | Options: volume, fullscreen, screen effects                |
-| F11                | Fullscreen                                                 |
+| Key                | What it does                                                                           |
+| ------------------ | -------------------------------------------------------------------------------------- |
+| W A S D            | Walk                                                                                   |
+| Mouse, left click  | Aim and shoot. With a melee weapon, hold to wind up                                    |
+| Right mouse (hold) | Aim down the sights                                                                    |
+| Shift              | Sprint                                                                                 |
+| Space              | Hop. On a horse or in a seat, get down                                                 |
+| Space twice        | Diving roll                                                                            |
+| E                  | Use, pick up, buy, take the controls. Hold for longer jobs                             |
+| R                  | Reload                                                                                 |
+| Q                  | Drop                                                                                   |
+| 1–0, mouse wheel   | Choose from your belt                                                                  |
+| Tab                | Your things                                                                            |
+| M                  | The map of the line                                                                    |
+| G                  | Your posse                                                                             |
+| C (hold)           | Emotes                                                                                 |
+| Enter              | Chat                                                                                   |
+| H                  | The handbook                                                                           |
+| Esc                | Options: volume, fullscreen, graphics, UI size, vibration. In the app, Exit to Desktop |
+| F11                | Fullscreen                                                                             |
 
 The handbook (**H**) covers the rest. Everything else, you'll find out on the line.
 
 ## Good to know
 
 - **Your progress** (what you've earned and unlocked) is kept separately online and on your computer. Riding alone and hosting share your computer's progress. Riding online has its own, kept on the server. Playing in a browser counts as a different rider again.
+- **Graphics:** the game starts in Classic, the pixel art as drawn. Enhanced (Low, Medium or High, in Options or the launcher) adds soft light, bloom and more, for computers with a capable graphics card. If yours can't run it, the game stays in Classic.
 - **Updates:** riding online always uses the newest game. Riding alone and hosting use the game that came with your copy of the app, so download the newest release to get updates there.
 - **"Can't be reached" or "no answer"** means the launcher couldn't find that server or station. Check your connection, or the address, and try again.
 

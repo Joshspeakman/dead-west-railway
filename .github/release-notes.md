@@ -1,3 +1,13 @@
+## New in this version
+
+- **Controllers:** play with an Xbox, PlayStation or any standard gamepad, menus and the launcher included. It rumbles too (Options → Vibration).
+- **Graphics:** Classic stays the default. Enhanced (Low, Medium or High) adds soft light, bloom and more, in Options or the launcher's Graphics panel.
+- **Moves:** Space hops, and Space twice is a diving roll.
+- **UI size** in Options, from 50% to 200%.
+- **Exit to Desktop** in the Options menu, and an emote wheel that's easier to read.
+
+## Download
+
 Download the file for your system:
 
 | System                                      | File                          |
