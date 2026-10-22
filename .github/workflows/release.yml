@@ -1,0 +1,70 @@
+# Builds the installers on each system and publishes them as a release when a v* tag is pushed.
+# Run it by hand (Actions → Release → Run workflow) to build without publishing.
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            target: --win
+          - os: macos-latest
+            target: --mac
+          - os: ubuntu-latest
+            target: --linux
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx electron-builder ${{ matrix.target }} --publish never
+        env:
+          # No publisher certificates yet: don't go looking for one.
+          CSC_IDENTITY_AUTO_DISCOVERY: false
+      - name: Check the macOS app is signed (ad hoc) and universal
+        if: runner.os == 'macOS'
+        run: |
+          app="$(find dist -maxdepth 2 -name '*.app' | head -1)"
+          codesign --verify --deep --strict "$app"
+          lipo -archs "$app/Contents/MacOS/Dead West Railway"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: installers-${{ runner.os }}
+          path: |
+            dist/*.exe
+            dist/*.dmg
+            dist/*.AppImage
+            dist/*.deb
+          if-no-files-found: error
+
+  release:
+    needs: build
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: installers
+          merge-multiple: true
+      - run: |
+          ls -la installers
+          gh release create "$GITHUB_REF_NAME" installers/* \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "Dead West Railway $GITHUB_REF_NAME" \
+            --notes-file .github/release-notes.md
+        env:
+          GH_TOKEN: ${{ github.token }}

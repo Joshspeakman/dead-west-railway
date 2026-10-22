@@ -1,0 +1,50 @@
+# Installers for Windows, macOS and Linux. File names carry no version, so the README's
+# "latest" download links always point at the newest release.
+appId: io.github.joshspeakman.deadwestrailway
+productName: Dead West Railway
+copyright: Copyright © 2026 Joshspeakman
+directories:
+  output: dist
+  buildResources: build
+files:
+  - main.js
+  - splash.html
+  - build/icon.png
+  - package.json
+
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+  artifactName: Dead-West-Railway-Setup.${ext}
+nsis:
+  oneClick: true
+  perMachine: false
+  shortcutName: Dead West Railway
+
+mac:
+  target:
+    - target: dmg
+      arch: [universal]
+  category: public.app-category.games
+  artifactName: Dead-West-Railway.${ext}
+  # No Apple developer certificate yet: sign ad hoc, which Apple Silicon needs to run at all.
+  identity: '-'
+  hardenedRuntime: false
+dmg:
+  title: Dead West Railway
+
+linux:
+  target:
+    - target: AppImage
+      arch: [x64]
+    - target: deb
+      arch: [x64]
+  category: Game
+  syncDesktopName: true
+  synopsis: Co-op survival on a haunted frontier railroad
+  artifactName: Dead-West-Railway.${ext}
+deb:
+  artifactName: dead-west-railway_amd64.${ext}
+
+publish: null
