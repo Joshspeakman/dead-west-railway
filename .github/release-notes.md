@@ -1,10 +1,8 @@
 ## New in this version
 
-- **Controllers:** play with an Xbox, PlayStation or any standard gamepad, menus and the launcher included. It rumbles too (Options → Vibration).
-- **Graphics:** Classic stays the default. Enhanced (Low, Medium or High) adds soft light, bloom and more, in Options or the launcher's Graphics panel.
-- **Moves:** Space hops, and Space twice is a diving roll.
-- **UI size** in Options, from 50% to 200%.
-- **Exit to Desktop** in the Options menu, and an emote wheel that's easier to read.
+- **Smoother everywhere, most of all on Windows and Linux:** the game draws its frames about twice as fast, and its picture now runs on your graphics card. On a fast PC, Classic keeps up with high-refresh screens (200 frames a second and more).
+- **Frame rate** in Options and the launcher's Graphics panel: Match display, 60, 120, or (on Windows and Linux) Uncapped.
+- **Laptops with two graphics chips** now use the faster one.
 
 ## Download
 
