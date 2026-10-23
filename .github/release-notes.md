@@ -1,11 +1,7 @@
 ## New in this version
 
-- **A song of its own:** the title screen opens with _Dust and Death's Call_, made for the game.
-- **A livelier title screen:** day turns to night out on the line, and the posse has company. Keep an eye on it while you wait.
-- **The searchlight:** buy one from the gunsmith, weld it to the train, man it and aim it to light up the dark. On Enhanced graphics everything in its beam casts a shadow.
-- **No first-moment stutters:** a short loading screen warms the game up before the title, so the menu and the start of a ride run smoothly from the first frame.
-- **Selling pays again:** E now picks up the money bag a sale leaves on the counter, instead of opening the shop again.
-- **Switch controls on the fly:** keyboard and mouse take over from a controller the moment you touch them, in menus too.
+- **The title song loops:** _Dust and Death's Call_ now plays on for as long as you stay on the title screen, instead of giving way to the old tune.
+- **A lighter searchlight:** on Enhanced graphics a lit searchlight now costs about as much as a dark one, with the same look and shadows.
 - **Update in place:** the launcher's Update button installs this version for you.
 
 ## Download
