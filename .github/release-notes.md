@@ -1,7 +1,8 @@
 ## New in this version
 
-- **The title song loops:** _Dust and Death's Call_ now plays on for as long as you stay on the title screen, instead of giving way to the old tune.
-- **A lighter searchlight:** on Enhanced graphics a lit searchlight now costs about as much as a dark one, with the same look and shadows.
+- **Music that follows the ride:** the soundtrack now changes with where you are and what's happening (the train's speed, a horse, each kind of stop, the land, the weather, the dead closing in, a boss, the crossing) and never cuts out.
+- **A sound for everything:** dry fire, each gun's reload, hits you land, the till and coins, vaults and safes, the cab's controls, saddles, medicine, revives, every enemy's voice, footsteps and hooves, menus, rain and fog.
+- **A clearer title screen:** the menu explains why the posse is riding east, and the number keys on the title hold a small surprise.
 - **Update in place:** the launcher's Update button installs this version for you.
 
 ## Download
