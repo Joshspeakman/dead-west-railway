@@ -1,11 +1,6 @@
 ## New in this version
 
-- **Fighting music:** a fight now has a song of its own, from its first note, with more of the band coming in as more of the dead come for you, and all of it for a boss. When nothing is happening, quieter pieces of their own play instead.
-- **The ride east:** the title screen and the handbook tell why the posse leaves the yard, and the papers you find along the line have more to say.
-- **Heavier guns:** gunshots are louder and fuller up close, the shotgun most of all.
-- **A danger on foot at night:** something new waits for riders alone on the track after dark. Options → Jump scares turns its full-screen scare into a red flash.
-- **For new players:** music starts at 80% and the interface at half size. Settings you have already chosen are kept.
-- **Quieter storms:** a dust storm's wind no longer carries a constant moan.
+- **A bigger posse, a harder line:** every rider past the first makes the dead tougher, their blows heavier and the roaming dead quicker to come. The feed tells the posse a few seconds after the train leaves, and again when a rider drops out (the dead ease off) or comes back (they harden).
 - **Update in place:** the launcher's Update button installs this version for you.
 
 ## Download
