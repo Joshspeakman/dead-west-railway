@@ -1,6 +1,6 @@
 ## New in this version
 
-- **Full screen from the start on Windows and Linux:** a new install now opens the game full screen. A Mac still opens in a window, and anyone who has played before keeps their own choice. Change it any time in the launcher's settings, or press F11.
+- **Full screen from the start:** a new install now opens the game full screen on Windows, macOS and Linux. Anyone who has played before keeps their own choice. Change it any time in the launcher's settings, or press F11.
 - **Update in place:** the launcher's Update button installs this version for you.
 
 ## Download
