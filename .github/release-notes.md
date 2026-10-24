@@ -1,8 +1,11 @@
 ## New in this version
 
-- **Music that follows the ride:** the soundtrack now changes with where you are and what's happening (the train's speed, a horse, each kind of stop, the land, the weather, the dead closing in, a boss, the crossing) and never cuts out.
-- **A sound for everything:** dry fire, each gun's reload, hits you land, the till and coins, vaults and safes, the cab's controls, saddles, medicine, revives, every enemy's voice, footsteps and hooves, menus, rain and fog.
-- **A clearer title screen:** the menu explains why the posse is riding east, and the number keys on the title hold a small surprise.
+- **Fighting music:** a fight now has a song of its own, from its first note, with more of the band coming in as more of the dead come for you, and all of it for a boss. When nothing is happening, quieter pieces of their own play instead.
+- **The ride east:** the title screen and the handbook tell why the posse leaves the yard, and the papers you find along the line have more to say.
+- **Heavier guns:** gunshots are louder and fuller up close, the shotgun most of all.
+- **A danger on foot at night:** something new waits for riders alone on the track after dark. Options → Jump scares turns its full-screen scare into a red flash.
+- **For new players:** music starts at 80% and the interface at half size. Settings you have already chosen are kept.
+- **Quieter storms:** a dust storm's wind no longer carries a constant moan.
 - **Update in place:** the launcher's Update button installs this version for you.
 
 ## Download
