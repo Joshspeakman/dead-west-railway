@@ -1,6 +1,13 @@
 ## New in this version
 
-- **Full screen from the start:** a new install now opens the game full screen on Windows, macOS and Linux. Anyone who has played before keeps their own choice. Change it any time in the launcher's settings, or press F11.
+- **Places to find:** a few places lie out in the wild on every run, well away from the line and never signposted. Wander off the tracks and you may come across one.
+- **Secrets that take finding:** the towns' rooms have furniture worth searching, and things that used to lie in plain sight are better hidden.
+- **Two new lands:** a pine forest, and a rare pale wood.
+- **Weekly challenges:** three new ones on the Challenge Board every Sunday, 25 bonds each.
+- **More from the original:** more of its items, creatures, traders and touches are in, and many quests and challenges that could break or be cheated now work as they should, alone or with a posse.
+- **Fairer co-op:** a rider who drops out no longer holds the run open, and a run in progress is paid if the server restarts.
+- **A play log:** a launcher setting that records how smoothly the game runs, to share if something stutters.
+- **Hosting fix:** the game no longer fails to start when another copy is already using its port.
 - **Update in place:** the launcher's Update button installs this version for you.
 
 ## Download
