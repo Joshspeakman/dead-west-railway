@@ -1,6 +1,6 @@
 ## New in this version
 
-- **A bigger posse, a harder line:** every rider past the first makes the dead tougher, their blows heavier and the roaming dead quicker to come. The feed tells the posse a few seconds after the train leaves, and again when a rider drops out (the dead ease off) or comes back (they harden).
+- **Full screen from the start on Windows and Linux:** a new install now opens the game full screen. A Mac still opens in a window, and anyone who has played before keeps their own choice. Change it any time in the launcher's settings, or press F11.
 - **Update in place:** the launcher's Update button installs this version for you.
 
 ## Download
