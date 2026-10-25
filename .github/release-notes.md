@@ -1,16 +1,11 @@
 ## New in this version
 
-- **Every train its own:** each train you can buy now has an engine and cars of its own, a whistle of its own and sounds of its own on the run. The starting engine is now a black locomotive pulling one long flatcar, with its cab behind the boiler, and you can climb up and stand on the boiler.
-- **Every past its own look:** each past now has its own clothes, hat and details, and its own footsteps and a sound when you emote. Your rider colour is a neckerchief, so two riders on the same past can still be told apart. Armour shows when you wear it.
-- **Titles on your name:** a title you earn or buy shows under your name on the line, and you choose which one at the Undertaker's cart.
-- **The yard:** the platform is now the Company's yard at the Departure Depot, with your posse on the platform beside the train. Click a building to open its screen (the platform card lists them too).
-- **The end of a run:** a crossing has an ending of its own, with its own song, and a lost run its own quiet. Any key goes on.
-- **The run report:** a card for every rider with their numbers and an award or two, and everything you earned, line by line. Back to the platform takes the whole posse back to the yard with the same ticket.
-- **Bigger pay for a crossing:** reaching the border pays 30 bonds.
-- **Controller fix:** the screen no longer shakes when walking diagonally with a controller.
-- **Wide screens:** the game fills 32:9 screens, with the HUD kept to the middle.
-- **Riding alone:** no ticket code to give or take, and DEPART sets off straight away.
-- **Fairer shots:** a round fired up the screen hits the body, not the legs.
+- **A rebuilt last stretch:** the end of the line and the crossing have been rebuilt, and a crossing ends differently.
+- **The posse moves on together:** at the end of a run, any key or click is your vote to skip ahead, and Back to the platform is your vote to go back. The posse goes on once everyone has voted, and the screen shows who has. A rider who drops out doesn't hold the rest up. Riding alone, it goes on at once.
+- **Smoother nights:** with Enhanced graphics, towns at night run much faster and look the same.
+- **No more stalls:** no pause when you create a run, depart, cross the bridge or go back to the platform.
+- **A clearer cab:** with fuel in your hands and the boiler full, the cab now tells you to set it down (Q) before you take the seat.
+- **The church:** its windows shine white after dark.
 - **Update in place:** the launcher's Update button installs this version for you.
 
 ## Download
