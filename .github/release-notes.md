@@ -1,12 +1,12 @@
 ## New in this version
 
-- **A rebuilt last stretch:** the end of the line and the crossing have been rebuilt, and a crossing ends differently.
-- **The posse moves on together:** at the end of a run, any key or click is your vote to skip ahead, and Back to the platform is your vote to go back. The posse goes on once everyone has voted, and the screen shows who has. A rider who drops out doesn't hold the rest up. Riding alone, it goes on at once.
-- **Smoother nights:** with Enhanced graphics, towns at night run much faster and look the same.
-- **No more stalls:** no pause when you create a run, depart, cross the bridge or go back to the platform.
-- **A clearer cab:** with fuel in your hands and the boiler full, the cab now tells you to set it down (Q) before you take the seat.
-- **The church:** its windows shine white after dark.
-- **Update in place:** the launcher's Update button installs this version for you.
+- **The line between the towns:** a hundred new stretches of track, five to nine on every run: crossings, canyons, water, forest, strange ground and more, each with its own hazards and finds.
+- **Bigger towns, and new ones:** towns are half again as big and built from their own materials, and new ones line the route, from a tent town and a placer camp to a salt works, a coal company town, a lumber town and a smelter.
+- **Outlaws on horseback:** out on the open line, mounted outlaws ride up beside the cars and shoot at whoever is aboard. Full steam leaves them behind.
+- **The horde on the line:** once a run, the dead stand thick across the track. At full steam the cowcatcher cuts through; any slower and they climb aboard.
+- **Instruments:** a guitar, drums and a trumpet, and a banjo played note by note.
+- **Coal at speed:** the firebox burns more coal the harder you run.
+- **Many fixes** from a full pass over the game.
 
 ## Download
 
