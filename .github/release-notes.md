@@ -1,12 +1,9 @@
 ## New in this version
 
-- **A new look for the whole line:** every land has ground of its own, with stones and plants in the world's colours; the towns, the places along the line, the trains, the title screen and the yard are all redrawn, and shadows fall the way the thing casting them stands.
-- **Every rider redrawn:** the Drifter and the Cowboy come straight off the big screen, and almost every other past gets a costume of its own, from the Doctor, the Miner and the Priest to the Conductor, the Tycoon and the Ironclad. The monsters are darker than ever. Riders now look right from the front and from behind too.
-- **The dead, redrawn:** every enemy in the line's own colours, and they move with weight: they stagger when hit, lunge, limp, and go down where they fall, leaving the body there.
-- **Smarter dead:** packs hold the doorways, and outlaws duck out of your line of fire.
-- **Emotes** hold their pose, with one thing moving.
-- **A new secret past** to earn, with a gun nobody else can carry and a mastery track of his own.
-- **Many fixes** across the game.
+- **Towns stand against the Ticking Clock:** when the dead reach a walled town, they rush its walls and its tower guns open up on them; the walls and towers come down one by one as the horde comes through, instead of vanishing the moment it arrives.
+- **Tower guns fire over the walls:** a town's guns up on its towers now shoot over its own walls, in every mode.
+- **Quiet vaults:** open a bank vault with its combination (the banker's card, or the wheel dialled right) and it opens quietly, with nothing coming. Blow it open with dynamite and everything nearby hears it.
+- **Combinations that fit:** a combination card in your sack now counts, and no banker drops a card that fits no vault.
 
 ## Download
 
