@@ -1,12 +1,13 @@
 ## New in this version
 
-- **The line between the towns:** a hundred new stretches of track, five to nine on every run: crossings, canyons, water, forest, strange ground and more, each with its own hazards and finds.
-- **Bigger towns, and new ones:** towns are half again as big and built from their own materials, and new ones line the route, from a tent town and a placer camp to a salt works, a coal company town, a lumber town and a smelter.
-- **Outlaws on horseback:** out on the open line, mounted outlaws ride up beside the cars and shoot at whoever is aboard. Full steam leaves them behind.
-- **The horde on the line:** once a run, the dead stand thick across the track. At full steam the cowcatcher cuts through; any slower and they climb aboard.
-- **Instruments:** a guitar, drums and a trumpet, and a banjo played note by note.
-- **Coal at speed:** the firebox burns more coal the harder you run.
-- **Many fixes** from a full pass over the game.
+- **Every class's abilities:** each class's mastery track now brings both of its abilities, on T and B. With a controller, click R3 for the first and hold it for the second; the D-pad's left is the map again.
+- **More in the shops:** wooden stakes at the town churches, silver rounds at the gunsmiths, medkits at the doctors, and a hammer in some general stores.
+- **The dead find the gate:** enemies inside a walled town block now come round by the gate or the door instead of standing at the wall.
+- **Stunned at a glance:** a stunned enemy stands still under a ring of little stars.
+- **The Ticking Clock** opens on a quiet spell, and the land tells you how long it lasts.
+- **The platform:** the outlines under the riders in the lobby now sit on the boards, under their feet.
+- **Safer saves:** your profile is written whole, with a backup kept beside it.
+- **Many fixes** across every mode, class and shop, from a second full pass over the game.
 
 ## Download
 
