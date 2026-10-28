@@ -1,13 +1,12 @@
 ## New in this version
 
-- **Every class's abilities:** each class's mastery track now brings both of its abilities, on T and B. With a controller, click R3 for the first and hold it for the second; the D-pad's left is the map again.
-- **More in the shops:** wooden stakes at the town churches, silver rounds at the gunsmiths, medkits at the doctors, and a hammer in some general stores.
-- **The dead find the gate:** enemies inside a walled town block now come round by the gate or the door instead of standing at the wall.
-- **Stunned at a glance:** a stunned enemy stands still under a ring of little stars.
-- **The Ticking Clock** opens on a quiet spell, and the land tells you how long it lasts.
-- **The platform:** the outlines under the riders in the lobby now sit on the boards, under their feet.
-- **Safer saves:** your profile is written whole, with a backup kept beside it.
-- **Many fixes** across every mode, class and shop, from a second full pass over the game.
+- **A new look for the whole line:** every land has ground of its own, with stones and plants in the world's colours; the towns, the places along the line, the trains, the title screen and the yard are all redrawn, and shadows fall the way the thing casting them stands.
+- **Every rider redrawn:** the Drifter and the Cowboy come straight off the big screen, and almost every other past gets a costume of its own, from the Doctor, the Miner and the Priest to the Conductor, the Tycoon and the Ironclad. The monsters are darker than ever. Riders now look right from the front and from behind too.
+- **The dead, redrawn:** every enemy in the line's own colours, and they move with weight: they stagger when hit, lunge, limp, and go down where they fall, leaving the body there.
+- **Smarter dead:** packs hold the doorways, and outlaws duck out of your line of fire.
+- **Emotes** hold their pose, with one thing moving.
+- **A new secret past** to earn, with a gun nobody else can carry and a mastery track of his own.
+- **Many fixes** across the game.
 
 ## Download
 
