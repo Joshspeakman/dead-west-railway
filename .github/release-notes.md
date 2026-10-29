@@ -1,11 +1,11 @@
 ## New in this version
 
-- **Runs cooler:** the game works the graphics chip and processor much less, especially on high-refresh laptop screens, where it now only draws a new frame when something on screen has moved.
-- **Effects resolution:** a new slider in Options → Graphics sets how finely the Enhanced light, shadows and fog are drawn. Auto suits most screens.
-- **The yard, rearranged:** the platform's places now sit beside the platform card, each named once, with a light when you point at one.
-- **On foot:** the train's speed and distance show only while you're aboard.
-- **Cargo and kit:** cargo stowed on a car shows again, and the starting gold bars and kit are set out on the right side of the train.
-- **Every mode plays by its own rules:** many fixes across the modes, including Nightmare (now opened by a win on Normal, and harder), Permadeath, Free-for-All, Takeover, Frost Bite, Summer, the Show and the Ghost Train.
+- **Weapons carried, not brandished:** when you aren't using it, each kind of weapon is carried its own way: tools and swords over the shoulder, pistols and knives low in the hand, rifles and heavy guns at the hip, spears like a staff, the torch held high, fists up in a guard. It comes up when you aim, fire or swing.
+- **The banjo and the guitar:** slung across the front, ready to play, and played with a hard downstroke and a nod on every note, from every side.
+- **Everyone turns:** enemies, creatures and townsfolk now face toward you and away from you the way riders do, and a gunman facing you aims straight at you.
+- **Horses from the front and behind,** with their riders astride, leaning into the gallop. The HUD says MOUNTED while you ride.
+- **Eye trails:** on the High graphics preset, the glowing eyes of the dead leave streaks of light behind them at night.
+- **Every rider holds every weapon:** each past can carry, aim and swing whatever is in hand.
 
 ## Download
 
