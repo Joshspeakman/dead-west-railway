@@ -1,9 +1,11 @@
 ## New in this version
 
-- **Names that fade:** the riders' names show in the lobby and for the first few seconds of a run, then fade away. Put your crosshair on a rider to see their name again, or press N (or Options → Display → Rider names) to keep them on. A hurt teammate's health still shows over them.
-- **Signs, not floating names:** buildings carry their names on painted signs, on the walls, on posts and inside on the back wall, instead of names hanging in the air.
-- **People in the towns:** the sheriff at his desk with a prisoner in the cell, the storekeeper, the gunsmith, the doctor, the undertaker, the hotel clerk, the preacher, the blacksmith and the livery hand, each at work where a town still lives, standing guard where it's held, and dead at their posts where it has fallen.
-- **The saloon:** a bar along the back wall, a piano player, and a stage with footlights and a dancer.
+- **Runs cooler:** the game works the graphics chip and processor much less, especially on high-refresh laptop screens, where it now only draws a new frame when something on screen has moved.
+- **Effects resolution:** a new slider in Options → Graphics sets how finely the Enhanced light, shadows and fog are drawn. Auto suits most screens.
+- **The yard, rearranged:** the platform's places now sit beside the platform card, each named once, with a light when you point at one.
+- **On foot:** the train's speed and distance show only while you're aboard.
+- **Cargo and kit:** cargo stowed on a car shows again, and the starting gold bars and kit are set out on the right side of the train.
+- **Every mode plays by its own rules:** many fixes across the modes, including Nightmare (now opened by a win on Normal, and harder), Permadeath, Free-for-All, Takeover, Frost Bite, Summer, the Show and the Ghost Train.
 
 ## Download
 
