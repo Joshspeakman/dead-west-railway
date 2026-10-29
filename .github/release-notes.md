@@ -1,9 +1,9 @@
 ## New in this version
 
-- **Towns stand against the Ticking Clock:** when the dead reach a walled town, they rush its walls and its tower guns open up on them; the walls and towers come down one by one as the horde comes through, instead of vanishing the moment it arrives.
-- **Tower guns fire over the walls:** a town's guns up on its towers now shoot over its own walls, in every mode.
-- **Quiet vaults:** open a bank vault with its combination (the banker's card, or the wheel dialled right) and it opens quietly, with nothing coming. Blow it open with dynamite and everything nearby hears it.
-- **Combinations that fit:** a combination card in your sack now counts, and no banker drops a card that fits no vault.
+- **Names that fade:** the riders' names show in the lobby and for the first few seconds of a run, then fade away. Put your crosshair on a rider to see their name again, or press N (or Options → Display → Rider names) to keep them on. A hurt teammate's health still shows over them.
+- **Signs, not floating names:** buildings carry their names on painted signs, on the walls, on posts and inside on the back wall, instead of names hanging in the air.
+- **People in the towns:** the sheriff at his desk with a prisoner in the cell, the storekeeper, the gunsmith, the doctor, the undertaker, the hotel clerk, the preacher, the blacksmith and the livery hand, each at work where a town still lives, standing guard where it's held, and dead at their posts where it has fallen.
+- **The saloon:** a bar along the back wall, a piano player, and a stage with footlights and a dancer.
 
 ## Download
 
