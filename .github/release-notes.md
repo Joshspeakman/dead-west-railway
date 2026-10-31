@@ -1,11 +1,19 @@
 ## New in this version
 
-- **Weapons carried, not brandished:** when you aren't using it, each kind of weapon is carried its own way: tools and swords over the shoulder, pistols and knives low in the hand, rifles and heavy guns at the hip, spears like a staff, the torch held high, fists up in a guard. It comes up when you aim, fire or swing.
-- **The banjo and the guitar:** slung across the front, ready to play, and played with a hard downstroke and a nod on every note, from every side.
-- **Everyone turns:** enemies, creatures and townsfolk now face toward you and away from you the way riders do, and a gunman facing you aims straight at you.
-- **Horses from the front and behind,** with their riders astride, leaning into the gallop. The HUD says MOUNTED while you ride.
-- **Eye trails:** on the High graphics preset, the glowing eyes of the dead leave streaks of light behind them at night.
-- **Every rider holds every weapon:** each past can carry, aim and swing whatever is in hand.
+- **The Picture Show:** the Picture Show on the platform now plays your train's past runs as a puppet show, each rider played as themselves. It keeps a train's runs until the train goes back to the shed. After a run ends, you go straight to the report.
+- **Playing with a controller:**
+  - L2 aims down the sights, like the right mouse button.
+  - Both sticks are smoother.
+  - In menus, the D-pad reaches every control, and the left stick moves a free pointer.
+  - An on-screen keyboard lets you type your name and a ticket, and a list lets you pick the line.
+- **Rumble:** you feel the locomotive's drivers through the deck, each hoofbeat in step with your horse's stride, and every shot and hit more sharply.
+- **Smoother motion:** frames are drawn evenly while the view pans, the train moves more smoothly, and night lighting on Classic graphics is faster.
+- **Full screen on a Mac:** true full screen, either around the notch or below it, with the pointer kept in the window while you ride.
+- **Weapons:**
+  - Every gun reloads in about two thirds of the time it took before.
+  - The Shotgun hits up to 60% harder up close.
+- **Carrying:** you can sprint while carrying something heavy. It's as fast as walking empty-handed.
+- **Melee:** clicking a blade quickly no longer drops swings.
 
 ## Download
 
