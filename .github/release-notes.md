@@ -1,23 +1,15 @@
 ## New in this version
 
-- **Couch co-op:** a second rider can join on the same screen with their own controller. Hold START at the title to call them in. Each rider has their own name, past, kit panels and rumble. When you wander apart, the screen splits along an angled seam that turns to follow you.
-- **Drop-in riders:** with drop-in on, riders can join or leave a run already under way. They ride in on horseback and leap aboard, and wave goodbye when they step off.
-- **Controllers:**
-  - The aim goes straight to where the right stick points.
-  - The game, and the launcher, tell you how to wake a controller it can't see yet.
-- **Upstairs and underground:** hotels have an upstairs of guest rooms, and mines go three levels down, worse the deeper you go.
-- **Towns:**
-  - A building's lamps are lit after dark only when someone lives or works there.
-  - When a thunderstorm comes in, townsfolk and guards go indoors until it passes.
-  - A church is a sanctuary: the undead won't step inside.
-  - A saloon's bartender pours beer and whiskey. A drink dulls the blows you take, but it throws your aim until it wears off.
-- **Enemies:** outlaws and the dead fight each other when they meet. Outlaws on fresh horses can catch a train at full steam and jump aboard.
-- **On the road:** roadside stops have more to see, and riders are shown drinking, eating and bandaging when they use what they carry.
-- **Weapons:** every gun hits harder, the shotguns and rifles by about 30%. The Revolver reloads faster, and sprints last a fifth longer.
-- **New riders** start with enough bonds to buy one past.
-- **Steady frames** (on by default): when the frame rate drops, the heaviest graphics effects ease off, and they come back once it recovers.
-- **Shops** have a new door bell and purchase jingle, without the harsh high notes.
-- Each past has its own take on the emotes.
+- **Smoother with the effects turned up:** the Enhanced effects ask much less of the graphics card. On a high-resolution screen with Effects resolution at 100%, the game now holds its frame rate where it used to fall short.
+- **Less work for the processor:** drawing a frame takes a fifth to a half less time than before, most of all in storms, dust and at night.
+- **Couch co-op:**
+  - Split screen keeps a steady frame rate at full sharpness. On high-resolution screens it used to fall well short.
+  - The seam is drawn in each rider's colour on their side of it, and each rider's health panel and belt are edged in the same colour, so you can tell at a glance which picture is yours.
+  - Each rider's prompt (E, or X on a controller) now sits over their own belt. The second rider gets prompts when the two of you share one view, too.
+  - Fixed: a run that ended while the screen was split left half the ending covered.
+  - Fixed: with two riders at one screen, the ending couldn't be skipped and the vote to go back to the platform never finished.
+- **Left behind:** a rider who is still alive but isn't aboard when the train makes the last crossing is marked Left Behind in the report, not Crossed, and doesn't earn the bonds for crossing. Being on the bridge counts as crossing. The Picture Show's puppet show tells it that way too.
+- **Launcher:** Settings › Network › Online Server lets Ride Online use a server other than the public one.
 
 ## Download
 
