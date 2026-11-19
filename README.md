@@ -89,6 +89,12 @@ Play with a keyboard and mouse, or a controller (Xbox, PlayStation or any standa
 
 Press **H** in the game for the full handbook.
 
+## Support
+
+If you get some use out of this, you can buy me a coffee on Ko-fi.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/speakerjosh)
+
 ---
 
 © 2026 Joshspeakman. All rights reserved.
