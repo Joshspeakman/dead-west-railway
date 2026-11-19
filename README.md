@@ -2,9 +2,11 @@
 
 [![Buy me a Continue on Ko-fi](https://img.shields.io/badge/Buy_me_a_Continue_%7C_%245-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/speakerjosh)
 
-![Dead West Railway: the Cinder Territory, 1891. A steam train under a full moon at dusk](logo.png)
+<p align="center"><img src="logo.png" width="610" alt="Dead West Railway"></p>
 
 A co-op survival game for one to six players on Windows, macOS and Linux. Drive a steam train across the frontier with your friends: keep the boiler fed, scavenge supplies, and look out for each other on the way. Play online, with friends on your own network, with a second rider at the same screen on a controller, or alone with no internet.
+
+<p align="center"><img src="boxart.png" width="400" alt="The box art: the No. 80 under a full moon at dusk, a skull in its steam, riders on the roofs and the dead coming up to the line"></p>
 
 ![Three riders in the street of the first town, among its shops, their locomotive waiting at the depot](screenshots/departure.png)
 
