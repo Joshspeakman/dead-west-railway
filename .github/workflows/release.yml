@@ -12,9 +12,9 @@ on:
   workflow_dispatch:
     inputs:
       ref:
-        description: The game repository's tag or branch to build
+        description: "The game repository's tag or branch to build (Classic is refs/heads/classic, since classic alone is also a tag; main is the new game)"
         required: true
-        default: main
+        default: refs/heads/classic
 
 permissions:
   contents: write
