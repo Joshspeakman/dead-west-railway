@@ -1,10 +1,12 @@
-# Dead West Railway
+# Dead West Railway Classic
 
 [![Buy me a Continue on Ko-fi](https://img.shields.io/badge/Buy_me_a_Continue_%7C_%245-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/speakerjosh)
 
 <p align="center"><img src="logo.png" width="610" alt="Dead West Railway"></p>
 
 A co-op survival game for one to six players on Windows, macOS and Linux. Drive a steam train across the frontier with your friends: keep the boiler fed, scavenge supplies, and look out for each other on the way. Play online, with friends on your own network, with a second rider at the same screen on a controller, or alone with no internet.
+
+> **This is Dead West Railway Classic**, the original game. It keeps its own releases, its own server and its own updates here. The new Dead West Railway, where the game goes on from here, has its own page: [Joshspeakman/dead-west-railway-cs](https://github.com/Joshspeakman/dead-west-railway-cs).
 
 <p align="center"><img src="boxart.png" width="400" alt="The box art: the No. 80 under a full moon at dusk, a skull in its steam, riders on the roofs and the dead coming up to the line"></p>
 
@@ -37,25 +39,25 @@ The game isn't signed with a paid publisher certificate yet, so Windows and macO
 2. If Windows shows **"Windows protected your PC"**, click **More info**, then **Run anyway**.
 3. The game installs for your user account and opens. It adds itself to the Start menu and the desktop.
 
-To uninstall, go to **Settings → Apps → Installed apps → Dead West Railway → Uninstall**.
+To uninstall, go to **Settings → Apps → Installed apps → Dead West Railway Classic → Uninstall**.
 
 ### macOS
 
-1. Open **Dead-West-Railway.dmg** and drag **Dead West Railway** into **Applications**.
+1. Open **Dead-West-Railway.dmg** and drag **Dead West Railway Classic** into **Applications**.
 2. Open it from Applications. macOS will say it can't verify the app. Click **Done** (not Move to Trash).
-3. Open **System Settings → Privacy & Security**, scroll down to the message about Dead West Railway, and click **Open Anyway**. Confirm with your password.
+3. Open **System Settings → Privacy & Security**, scroll down to the message about Dead West Railway Classic, and click **Open Anyway**. Confirm with your password.
 
 You only do this once. On macOS 14 or older you can instead right-click the app, choose **Open**, then **Open** again.
 
 If macOS ever says the app "is damaged", run this in Terminal, then open it again:
 
 ```sh
-xattr -dr com.apple.quarantine "/Applications/Dead West Railway.app"
+xattr -dr com.apple.quarantine "/Applications/Dead West Railway Classic.app"
 ```
 
 ### Linux
 
-**Ubuntu, Debian, Mint, Pop!\_OS:** install the `.deb` from a terminal in your Downloads folder, then launch **Dead West Railway** from your applications menu:
+**Ubuntu, Debian, Mint, Pop!\_OS:** install the `.deb` from a terminal in your Downloads folder, then launch **Dead West Railway Classic** from your applications menu:
 
 ```sh
 sudo apt install ./dead-west-railway_amd64.deb
