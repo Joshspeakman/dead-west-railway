@@ -1,8 +1,9 @@
-## Dead West Railway Classic
+## New in this version
 
-This version renames the game to **Dead West Railway Classic**. Nothing in the game changes: your saves, stations and settings come through as they were, it keeps updating from this page, and it plays on the same server.
+- **The new Dead West Railway, from the launcher:** Updates › The New Game shows the newest version of the new Dead West Railway and installs it beside Classic with one button, or opens it if you already have it. Classic stays as it is, with your progress; the new game starts its own.
+- **A CLASSIC sign on the icon,** so the two games are easy to tell apart on your desktop, taskbar and Dock.
 
-The new Dead West Railway, where the game goes on from here, is a separate game with its own downloads: [Joshspeakman/dead-west-railway-cs](https://github.com/Joshspeakman/dead-west-railway-cs/releases).
+Dead West Railway Classic keeps its own releases here, its own updates and its own server. The new Dead West Railway has its own page: [Joshspeakman/dead-west-railway-cs](https://github.com/Joshspeakman/dead-west-railway-cs/releases).
 
 ## Download
 
