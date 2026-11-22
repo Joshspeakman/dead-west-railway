@@ -1,7 +1,7 @@
 ## New in this version
 
-- **The new Dead West Railway, from the launcher:** Updates › The New Game shows the newest version of the new Dead West Railway and installs it beside Classic with one button, or opens it if you already have it. Classic stays as it is, with your progress; the new game starts its own.
-- **A CLASSIC sign on the icon,** so the two games are easy to tell apart on your desktop, taskbar and Dock.
+- **The new Dead West Railway, big on the launcher's front page:** a plate above Quit and Ride shows the newest version of the new Dead West Railway. **GET IT** downloads it and installs it beside Classic, and **OPEN IT** starts it once you have it. It is the same as Updates › The New Game, which is still there. Classic stays as it is, with your progress; the new game starts its own.
+- The launcher's window is a little taller, to fit it.
 
 Dead West Railway Classic keeps its own releases here, its own updates and its own server. The new Dead West Railway has its own page: [Joshspeakman/dead-west-railway-cs](https://github.com/Joshspeakman/dead-west-railway-cs/releases).
 
